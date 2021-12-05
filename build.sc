@@ -16,5 +16,6 @@ object solution extends ScalaModule {
     ivy"org.typelevel::cats-effect:${catsEffectVersion}",
     ivy"dev.optics::monocle-core:${monocleVersion}",
     ivy"dev.optics::monocle-macro:${monocleVersion}",
+    ivy"com.lihaoyi::fastparse:2.3.3"
   )
 }
