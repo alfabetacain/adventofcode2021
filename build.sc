@@ -8,6 +8,7 @@ object solution extends ScalaModule {
   val monocleVersion    = "3.1.0"
 
   def scalacOptions = Seq("-Ymacro-annotations")
+  def forkArgs      = Seq("-Xmx4g")
 
   def ivyDeps = Agg(
     ivy"co.fs2::fs2-core:${fs2Version}",
